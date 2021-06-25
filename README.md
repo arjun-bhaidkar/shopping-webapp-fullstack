@@ -1,6 +1,6 @@
 # shopping-webapp-fullstack
 
-Project Setup
+## Project Setup
 
 1. Run script.sql file from DB SCript in mysql server
 
@@ -9,6 +9,23 @@ Project Setup
 3. Run 'nodemon server.js' for backend
 
 4. Run 'npm start' for shopping-web-app
+
+## Technology used
+
+Frontend - 
+  React js 
+  Materialize css 
+  React Grid Layout for resizing cards
+  Apexcharts for charts
+  Context Api for centralizing data access
+  
+Backend -
+  Node js
+  GraphQl
+  
+Database -
+  MySQL
+  
 
 ## Screenpage
 
