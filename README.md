@@ -13,14 +13,14 @@
 ## Technology used
 
 Frontend - 
-  React js 
-  Materialize css 
-  React Grid Layout for resizing cards
-  Apexcharts for charts
+  React js ,
+  Materialize css ,
+  React Grid Layout for resizing cards ,
+  Apexcharts for charts ,
   Context Api for centralizing data access
   
 Backend -
-  Node js
+  Node js ,
   GraphQl
   
 Database -
