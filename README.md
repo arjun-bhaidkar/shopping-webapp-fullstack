@@ -2,7 +2,7 @@
 
 Project Setup
 
-1. Run script.sql file from DB SCripts in mysql server
+1. Run script.sql file from DB SCript in mysql server
 
 2. Run 'npm install' command for backend and shopping-web-app
 
