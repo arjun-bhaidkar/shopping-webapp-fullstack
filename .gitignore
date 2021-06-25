@@ -4,4 +4,4 @@ shopping-web-app/node_modules
 backend/package-lock.json
 shopping-web-app/package-lock.json
 
-.vscode
+.vscode/
