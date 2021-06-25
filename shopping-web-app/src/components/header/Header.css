@@ -1,0 +1,27 @@
+.custom {
+	margin-bottom: 1.8vmax;
+}
+span {
+	font-weight: 600;
+}
+.title {
+	color: #474340;
+	font-size: 1.5rem;
+}
+.logo {
+	width: 4rem;
+}
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-container {
+	padding: 5px;
+}
+.cart-container {
+	padding: 25px;
+	display: flex;
+	width: 10%;
+    justify-content: space-around;
+}

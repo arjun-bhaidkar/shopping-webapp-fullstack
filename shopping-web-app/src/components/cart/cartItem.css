@@ -1,0 +1,36 @@
+.cartProduct {
+    width: 8rem;
+    height: 8rem
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+
+.cartData{
+    text-align: start;
+}
+.cart-bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-content {
+    display: flex;
+    justify-content: flex-start;
+}
+.cart-text-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-stacked {
+    margin-right: 2rem;
+}
+.input-container {
+    margin-left: 10px;
+}
+.bottom-buttons {
+    display: flex;
+    flex-direction: row
+}

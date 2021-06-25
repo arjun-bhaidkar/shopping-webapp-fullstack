@@ -1,5 +1,5 @@
 const graphql = require("graphql");
-const { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLFloat } = graphql
+const { GraphQLSchema, GraphQLObjectType,GraphQLBoolean, GraphQLString, GraphQLInt, GraphQLFloat } = graphql
 
 
 const productType = new GraphQLObjectType({
@@ -8,20 +8,32 @@ const productType = new GraphQLObjectType({
         id: {
             type: GraphQLString,
         },
-        price: {
-            type: GraphQLFloat,
-        },
-        brand: {
+        productName: {
             type: GraphQLString,
         },
-        stock_count: {
+        brandName: {
+            type: GraphQLString,
+        },
+        weight: {
+            type: GraphQLString,
+        },
+        imageUrl: {
+            type: GraphQLString,
+        },
+        price: {
+            type: GraphQLString,
+        },
+        quantity: {
             type: GraphQLInt,
         },
-        logo: {
+        stock: {
+            type: GraphQLInt,
+        },
+        total: {
             type: GraphQLString,
         },
-        name: {
-            type: GraphQLString,
+        inCart: {
+            type: GraphQLBoolean,
         },
         description: {
             type: GraphQLString,
